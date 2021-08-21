@@ -111,3 +111,10 @@ Read the [reference guide](https://docs.mongodb.com/manual/tutorial/query-docume
 ```
 // Query 3
 ```
+
+## Submission Guidelines
+
+- Cite any relevant sources consulted during your research
+- Solve the problems using your own code
+- Do not copy and paste solutions from the source material
+- Submit your assignment to black board.
