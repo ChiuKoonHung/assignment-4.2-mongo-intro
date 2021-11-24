@@ -69,31 +69,31 @@ Attempt the following queries.
 ### 1. List distinct cuisine
 
 ```
-// Your answer here
+// db.restaurants.distinct("cuisine")
 ```
 
 ### 2. List restaurants name where cuisine is "Turkish" 
 
 ```
-// Your answer here
+// db.restaurants.distinct("name", {cuisine: "Turkish"})
 ```
 
 ### 3. List restuarants where `grade` is equals to `C`
 
 ```
-// Your answer here
+// db.restaurants.distinct("name", {"grades.grade": 'c'})
 ```
 
 ### 4. List only the restaurants name in descending order
 
 ```
-// Your answer here
+// db.restaurants.aggregate([{$sort:{name:-1}}])
 ```
 
 ### 5. List restaurants where name contains `Zo`
 
 ```
-// Your answer here
+// db.restaurants.distinct("name", {"name": /Zo/})
 ```
 
 ## Use the Reference Guide
